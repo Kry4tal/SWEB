@@ -80,7 +80,7 @@ rm -rf caddy_install.sh
 
 #Install SWEB
 cd /usr/local/
-git clone https://github.com/FunctionClub/SWEB
+git clone https://github.com/Kry4tal/SWEB/blob/master/sweb
 chmod +x /usr/local/SWEB/cgi-bin
 
 #Configure Caddy Proxy
@@ -91,7 +91,7 @@ echo ":80 {
 service caddy restart
 
 #Download SWEB Manager
-wget -N --no-check-certificate -O /usr/local/bin/sweb https://raw.githubusercontent.com/FunctionClub/SWEB/master/sweb
+wget -N --no-check-certificate -O /usr/local/bin/sweb https://github.com/Kry4tal/SWEB/blob/master/sweb
 chmod +x /usr/local/bin/sweb
 
 #Start SWEB in Screen
