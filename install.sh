@@ -80,7 +80,7 @@ rm -rf caddy_install.sh
 
 #Install SWEB
 cd /usr/local/
-git clone https://github.com/Kry4tal/SWEB/blob/master/sweb
+git clone https://github.com/Kry4tal/SWEB.git
 chmod +x /usr/local/SWEB/cgi-bin
 
 #Configure Caddy Proxy
